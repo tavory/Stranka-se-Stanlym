@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 255, 254);
+}
+.top-box-div {
+    height: fit-content;
+    background-color: rgb(255, 238, 214);
+    border-radius: 10px;
+    margin: 5px;
+    align-content: center;
+}
+.stanley-nadpis {
+    font-size: 50px;
+    margin-top: 20px;
+    
+}
+.parable-nadpis {
+    font-size: 55px;
+    font-weight: bold;
+}
+.the {
+    font-weight: bold;
+}
