@@ -1,22 +1,138 @@
 body {
-    background-color: rgb(255, 255, 254);
+    background-color: rgb(255, 255, 254)
 }
+
+.text-nahore {
+    color: aliceblue;
+}
+
+.text-nahore-div {
+    display: flex;
+    width: 1000px;
+    position: absolute;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 25px;
+    background-color: rgb(20, 20, 20);
+    align-self: center;
+    justify-content: space-between;
+    right: 4%;
+    top: 7%;
+}
+
 .top-box-div {
-    height: fit-content;
-    background-color: rgb(255, 238, 214);
+    height: 100px;
+    background-color: rgb(20, 20, 20);
     border-radius: 10px;
     margin: 5px;
-    align-content: center;
+    padding: 20px;
+    display: flex;
 }
+
 .stanley-nadpis {
     font-size: 50px;
     margin-top: 20px;
-    
+    border-style: solid;
+    border-color: black;
 }
+
 .parable-nadpis {
     font-size: 55px;
     font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    margin-left: 30px;
 }
+
 .the {
     font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    margin-left: 30px;
+}
+
+.ultraDeluxe {
+    color: rgb(255, 255, 18);
+    text-align: end;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.oHře {
+    justify-content: end;
+    margin: 50px;
+}
+
+.div-uvod {
+    height: 400px;
+    width: auto;
+    background-color: rgb(15, 15, 15);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nadpis-uvod {
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.uvodDoHry {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.div-uvod-pokracovaní {
+    display: flex;
+
+}
+
+.text-uvod-pokracovaní-dole {
+    display: flex;
+}
+
+
+.div-text1 {
+    height: 590px;
+    width: 690px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.div-image-figure {
+    height: 630px;
+    width: 350px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+}
+
+.div-text2 {
+    height: 590px;
+    width: 750px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+   
+}
+.obrazek-monitor {
+    margin: px;
+}
+.div-3 {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    height: 400px;
+    margin: 5px;
+    border-radius: 10px;
 }
