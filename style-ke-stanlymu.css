@@ -90,6 +90,7 @@ body {
 }
 
 .div-uvod-pokracovaní {
+    margin: 5px;
     display: flex;
 
 }
@@ -100,12 +101,13 @@ body {
 
 
 .div-text1 {
-    height: 590px;
-    width: 690px;
+    height: fit-content;
+    width: 50%;
     background-color: rgb(15, 15, 15);
     border-radius: 10px;
     margin: 5px;
     padding: 20px;
+    margin-left: 5px
 }
 
 .div-image-figure {
@@ -118,21 +120,42 @@ body {
 }
 
 .div-text2 {
-    height: 590px;
-    width: 750px;
+    height: fit-content;
+    width: 50%;
     background-color: rgb(15, 15, 15);
     border-radius: 10px;
     margin: 5px;
     padding: 20px;
-   
 }
+
+.obrazek-div-text2 {
+    display: flex;
+
+}
+
 .obrazek-monitor {
     margin: px;
 }
+
 .div-3 {
     background-color: rgb(15, 15, 15);
     display: flex;
-    height: 400px;
+    height: 380px;
     margin: 5px;
     border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
 }
+
+.rozhodnutí-1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    align-self: flex-start;
+}
+.rozhodnutí-1-1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+} 
